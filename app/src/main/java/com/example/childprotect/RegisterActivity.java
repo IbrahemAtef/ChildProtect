@@ -39,6 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
                     jsonObject.put("pass", pass);
                     jsonObject.put("rePass", rePass);
                     Toast.makeText(RegisterActivity.this, "Done", Toast.LENGTH_SHORT).show();
+                    //login
                     loginScreen(v);
                 } catch (JSONException e) {
                     e.printStackTrace();
